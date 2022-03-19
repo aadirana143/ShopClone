@@ -1,0 +1,160 @@
+.image{
+  width: 200px;
+  height: 200px;
+  padding:5px;
+}
+.data{
+  margin-top: 10px;
+  background-color: aquamarine;
+}
+.anchor{
+color: aqua;
+}
+a{
+  color: red;
+}
+
+.background{
+  background-color: rgb(107, 114, 114);
+  color: #fff;
+  top: 0;
+  z-index: 3;
+
+}
+
+.background a{
+color: #fff;
+}
+
+.image{
+  width: 180px;
+  height: 200px;
+  text-align: center;
+}
+.image button{
+  border: none;
+  background-color: #82f84b;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 5px ;
+}
+.apidata{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fbfcfd;
+  box-shadow: 5px 5px 5px;
+}
+.card-text{
+  line-height: 16px;
+}
+.carddata{
+  background-color: #ffffff;
+}
+.side{
+ background-color: #d5d8f5;
+ /* position: fixed; */
+}
+.sidebtn{
+  text-align: center;
+  margin-top: 10px;
+}
+.sidebtn button{
+  margin-top: 20px;
+}
+.textx button{
+border: none;
+margin-left: 10px;
+border-radius: 10px;
+background: #daf82d;
+box-shadow: 5px 5px 5px;
+/* font-size: 18px; */
+padding: 5px ;
+}
+.textx{
+  width: 60%;
+}
+.d_image{
+  text-align: center;
+}
+.d_image button{
+margin-top: 20px;
+border-radius: 5px;
+border: none;
+padding: 5px;
+background-color: skyblue;
+box-shadow: 4px 4px 6px;
+}
+.d_image button:active{
+  box-shadow: none;
+  padding: 4px;
+}
+.carddetail button{
+  margin-top: 20px;
+  border-radius: 5px;
+border: none;
+padding: 5px;
+background-color: yellow;
+box-shadow: 4px 4px 6px;
+}
+.carddetail button:active{
+  box-shadow: none;
+  padding: 4px;
+}
+.table tr{
+  background-color: #eff0eb;
+}
+.cate{
+  text-align: end;
+}
+.filtbutton button{
+  border: none;
+  margin-left: 5px;
+  border-radius: 10px;
+  background-color: #82f84b;
+  padding: 2px 5px;
+}
+.loader{
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%,-50%);
+}
+.one{
+  margin-right: 5px;
+
+}
+.two{
+  color: green;
+}
+.three{
+  margin-left: 5px;
+  color: blue;
+}
+.mainfront{
+ width: 100%;
+ height: 400px;
+box-sizing: border-box;
+ }
+ .mainfront img{
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+ }
+.cartspan span{
+     color: yellow;
+   
+}
+.cartbtn:active{
+box-shadow: none;
+font-size: 15px;
+}
+.address{
+  background-color: #82f84b;
+  
+}
